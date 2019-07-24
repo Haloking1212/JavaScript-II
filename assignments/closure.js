@@ -1,6 +1,17 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
+const leaf = "clover";
+function returnLeaf () {
+  return leaf;
+}
+returnLeaf();
+console.log(leaf);
 
+function insideClose (val) {
+  let letMeOut = "im free" + val;
+  return letMeOut;
+}
+console.log(insideClose(leaf));
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
